@@ -10,7 +10,7 @@
 #define __Day05__ccpObjectMath__
 
 #endif
-class iMath
+class clsCalculate
 {
 public:
     int add(int a, int b)
@@ -32,9 +32,20 @@ public:
     int divide(int a, int b)
     {
         return a/b;
-    }    
+    }
+    // Tinh giai  thua
+    int gt(int n)
+    {
+        int  i ;;
+        long s ;
+        s = 1;
+        for (i = 2 ; i<= n ;i++)
+            s = s * i;
+        return  s;
+    };
     
     
+   
 };
 
 
